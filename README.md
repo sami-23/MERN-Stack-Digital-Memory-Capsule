@@ -1,4 +1,4 @@
-```markdown
+
 # 🕰️ MERN-Stack-Digital-Memory-Capsule
 
 A modern web application for storing, scheduling, and sharing digital **time capsules** — messages, images, and videos that unlock on a future date. Securely create personal or shared capsules, visualize them on a timeline, and get notified when your memories are ready to be opened!
@@ -118,4 +118,3 @@ JWT_SECRET=YourSuperSecretKey
 
 **Enjoy building and sharing your digital memories!**  
 *Pull requests and suggestions welcome!*
-```
