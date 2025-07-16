@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fcfcfd;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 40px auto;
+  max-width: 500px;
+  background: #fff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #e7e7e7;
+}
+input, textarea, button {
+  margin: 8px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+button {
+  background: #4098d7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background: #237fd3;
+}
+a {
+  color: #237fd3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.modal {
+  position: fixed;
+  z-index: 99;
+  left:0; top:0; right:0; bottom:0;
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: white;
+  max-width: 430px;
+  border-radius: 8px;
+  padding: 24px;
+  position: relative;
+  min-width: 320px;
+}
